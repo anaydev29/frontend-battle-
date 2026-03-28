@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A237E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000666;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D32F2F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B71C1C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGrad)" stroke="#FFD700" stroke-width="3"/>
+  <!-- Inner ring -->
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#FFD700" stroke-width="1.5" opacity="0.6"/>
+  <!-- Top arc text: RAVINDRA'S -->
+  <path id="topArc" d="M 30,100 A 70,70 0 0,1 170,100" fill="none"/>
+  <text font-family="Arial Black, Arial, sans-serif" font-size="16" fill="white" font-weight="bold" letter-spacing="4">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">RAVINDRA'S</textPath>
+  </text>
+  <!-- Bottom arc text: IAS ACADEMY -->
+  <path id="bottomArc" d="M 30,100 A 70,70 0 0,0 170,100" fill="none"/>
+  <text font-family="Arial Black, Arial, sans-serif" font-size="13" fill="white" font-weight="bold" letter-spacing="3">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">IAS ACADEMY</textPath>
+  </text>
+  <!-- Central R letter -->
+  <circle cx="100" cy="100" r="40" fill="url(#rGrad)"/>
+  <circle cx="100" cy="100" r="36" fill="none" stroke="white" stroke-width="2" opacity="0.3"/>
+  <text x="100" y="115" font-family="Georgia, serif" font-size="52" fill="white" font-weight="bold" text-anchor="middle">R</text>
+  <!-- Small decorative stars -->
+  <text x="42" y="105" font-size="12" fill="#FFD700">★</text>
+  <text x="152" y="105" font-size="12" fill="#FFD700">★</text>
+</svg>
